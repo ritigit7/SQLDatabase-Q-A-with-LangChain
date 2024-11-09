@@ -77,32 +77,32 @@ The **AtliQ T-Shirts** app aims to simplify access to inventory data by allowing
 
 ## Usage
 
--Run the Streamlit Application:
--streamlit run app.py
--Access the Application: Open your browser and go to http://localhost:8501.
+- Run the Streamlit Application:
+- streamlit run app.py
+- Access the Application: Open your browser and go to http://localhost:8501.
 
 Interacting with the App: Enter natural language queries like:
 
--"Show all available T-shirts in size M."
--"List colors in stock for size L."
--"What’s the quantity of black T-shirts in size S?"
--The app translates these queries to SQL and retrieves accurate inventory information.
+- "Show all available T-shirts in size M."
+- "List colors in stock for size L."
+- "What’s the quantity of black T-shirts in size S?"
+- The app translates these queries to SQL and retrieves accurate inventory information.
 
 
 ## Project Structure
 
 AtliQ-T-Shirts-QA/
--├── app.py                   # Streamlit application entry point
--├── langchain_helper.py      # LangChain and SQL configuration
--├── few_shots.json           # Few-shot examples for the model
--├── requirements.txt         # List of dependencies
--├── README.md                # Project documentation
--└── LICENSE                  # License information
+- ├── app.py                   # Streamlit application entry point
+- ├── langchain_helper.py      # LangChain and SQL configuration
+- ├── few_shots.json           # Few-shot examples for the model
+- ├── requirements.txt         # List of dependencies
+- ├── README.md                # Project documentation
+- └── LICENSE                  # License information
 
 
 ## Technologies Used
--LangChain: For handling language model operations.   
--Hugging Face Transformers: NLP model to interpret queries.
--Streamlit: Web-based UI for user interaction.
--MySQL: Database to store inventory data.
--Few-shot Learning: For improved accuracy in SQL query generation.
+- LangChain: For handling language model operations.   
+- Hugging Face Transformers: NLP model to interpret queries.
+- Streamlit: Web-based UI for user interaction.
+- MySQL: Database to store inventory data.
+- Few-shot Learning: For improved accuracy in SQL query generation.
