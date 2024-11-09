@@ -43,7 +43,7 @@ The **AtliQ T-Shirts** app aims to simplify access to inventory data by allowing
 ## Screenshots
 
 ### Query Example
-![Query Example](https://github.com/ritigit7/SQLDatabase-Q-A-with-LangChain/blob/main/Screenshot%202024-11-09%20105123.png)
+![Query Example](https://github.com/ritigit7/SQLDatabase-Q-A-with-LangChain/blob/main/Screenshot%202024-11-09%20120511.png)
 
 ---
 
