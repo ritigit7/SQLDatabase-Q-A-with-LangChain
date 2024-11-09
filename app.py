@@ -13,8 +13,8 @@ import json
 import os
 
 # Set up environment variables
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ['SERPAPI_API_KEY'] = 'b02fa9624dd946db520ca243c0c95426b40a42f5ddf595bae102e869fe73883e'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "your key"
+os.environ['SERPAPI_API_KEY'] = 'your serp key'
 
 # Title and Description
 st.title("GenAI SQL LLM Project")
