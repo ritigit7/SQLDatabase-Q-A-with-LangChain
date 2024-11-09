@@ -13,8 +13,8 @@ from langchain.prompts import SemanticSimilarityExampleSelector
 import json
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ['SERPAPI_API_KEY'] = 'b02fa9624dd946db520ca243c0c95426b40a42f5ddf595bae102e869fe73883e'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "your key"
+os.environ['SERPAPI_API_KEY'] = 'your serp key'
 
 
 few_shots = [
