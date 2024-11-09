@@ -1,0 +1,21 @@
+# Streamlit for the web interface
+streamlit==1.25.0
+
+# LangChain for managing language models
+langchain==0.0.219
+
+# Hugging Face Transformers for NLP model interactions
+transformers==4.33.0
+
+# MySQL connector for database access
+mysql-connector-python==8.1.0
+
+# SERP API for web scraping
+serpapi==2.0.0
+
+# Additional utilities
+pandas==1.5.3          # For handling data frames and CSV
+numpy==1.24.0          # For numerical operations if needed
+
+# dotenv (optional, for environment variables if preferred over export)
+python-dotenv==1.0.0
