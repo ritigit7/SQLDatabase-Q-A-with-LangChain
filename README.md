@@ -43,9 +43,7 @@ The **AtliQ T-Shirts** app aims to simplify access to inventory data by allowing
 ## Screenshots
 
 ### Query Example
-![Query Example](images/query_example.png)
-
-> *Replace `images/homepage.png` and `images/query_example.png` with actual paths or URLs.*
+![Query Example](https://github.com/ritigit7/SQLDatabase-Q-A-with-LangChain/blob/main/Screenshot%202024-11-09%20105123.png)
 
 ---
 
@@ -63,3 +61,48 @@ The **AtliQ T-Shirts** app aims to simplify access to inventory data by allowing
    ```bash
    git clone https://github.com/your-username/AtliQ-T-Shirts-QA.git
    cd AtliQ-T-Shirts-QA
+
+2. **Install Required Packages**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set Up Database**:
+   Create the MySQL database and tables as per the SQL schema provided (optional SQL file for structure).
+   Populate the database with sample data.
+
+4. **API Key Configuration**:
+   ```bash
+   export HUGGINGFACEHUB_API_TOKEN="your_huggingface_api_token"
+   export SERPAPI_API_KEY="your_serpapi_api_key"
+
+## Usage
+   Run the Streamlit Application:
+   
+   streamlit run app.py
+   Access the Application: Open your browser and go to http://localhost:8501.
+
+   Interacting with the App: Enter natural language queries like:
+
+   "Show all available T-shirts in size M."
+   "List colors in stock for size L."
+   "What’s the quantity of black T-shirts in size S?"
+   The app translates these queries to SQL and retrieves accurate inventory information.
+
+
+## Project Structure
+
+   AtliQ-T-Shirts-QA/
+   ├── app.py                   # Streamlit application entry point
+   ├── langchain_helper.py      # LangChain and SQL configuration
+   ├── few_shots.json           # Few-shot examples for the model
+   ├── requirements.txt         # List of dependencies
+   ├── README.md                # Project documentation
+   └── LICENSE                  # License information
+
+
+## Technologies Used
+   LangChain: For handling language model operations.
+   Hugging Face Transformers: NLP model to interpret queries.
+   Streamlit: Web-based UI for user interaction.
+   MySQL: Database to store inventory data.
+   Few-shot Learning: For improved accuracy in SQL query generation.
